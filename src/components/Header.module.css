@@ -1,0 +1,12 @@
+.navigationBar {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  height: 5.63rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-100xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

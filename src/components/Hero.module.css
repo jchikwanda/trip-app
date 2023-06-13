@@ -1,0 +1,107 @@
+.aboutYourNext {
+  color: var(--color-white);
+}
+.introtext,
+.letsTalkAboutContainer {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.letsTalkAboutContainer {
+  flex: 1;
+  position: relative;
+  font-weight: 700;
+}
+.introtext {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0;
+  align-items: center;
+  justify-content: center;
+}
+.shareYourStory {
+  position: relative;
+}
+.sharestorybutton {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-orange);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mid) var(--padding-35xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: relative;
+  width: 4.25rem;
+  height: 4.25rem;
+}
+.calltoactionbuttons,
+.hero,
+.watchhighlightsbutton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.calltoactionbuttons,
+.hero {
+  align-self: stretch;
+  justify-content: center;
+  gap: var(--gap-118xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.hero {
+  flex-direction: column;
+  padding: var(--padding-176xl) 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+  background-image: url(/public/hero@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-77xl);
+  color: var(--color-orange);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1200px) {
+  .introtext {
+    padding-left: var(--padding-181xl);
+    padding-right: var(--padding-181xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .letsTalkAboutContainer {
+    font-size: var(--font-size-51xl);
+  }
+  .introtext {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .calltoactionbuttons {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 420px) {
+  .letsTalkAboutContainer {
+    font-size: var(--font-size-37xl);
+  }
+  .introtext {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .calltoactionbuttons {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+  }
+}

@@ -1,0 +1,122 @@
+.catchUpTo,
+.recentStoryEntries {
+  align-self: stretch;
+  position: relative;
+}
+.catchUpTo {
+  letter-spacing: 0.06em;
+  line-height: 2.63rem;
+  text-transform: uppercase;
+}
+.recentStoryEntries {
+  font-size: var(--font-size-29xl-4);
+  line-height: 3.68rem;
+  font-weight: 600;
+  font-family: var(--font-changa);
+  color: var(--color-black);
+}
+.catchUpToOurPostsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.zermattCardImage {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 5.26px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.zermattCardTitle {
+  align-self: stretch;
+  position: relative;
+  line-height: 2.73rem;
+}
+.viewFullBlog {
+  color: var(--color-blueviolet);
+}
+.zermattCardDescriptionContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.21rem;
+  line-height: 1.97rem;
+  font-family: var(--font-roboto);
+  color: var(--color-slategray);
+}
+.smallCards,
+.zermattCard,
+.zermattCardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.zermattCardDetails {
+  align-self: stretch;
+}
+.smallCards,
+.zermattCard {
+  flex: 1;
+}
+.zermattCard {
+  align-self: stretch;
+  border-radius: 10.52px;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  padding: var(--padding-2xl);
+  gap: var(--gap-2xl);
+}
+.smallCards {
+  gap: var(--gap-mini);
+}
+.cardsContainer,
+.recentStoriesFrame {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.cardsContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: 1.82rem;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-changa-one);
+}
+.recentStoriesFrame {
+  background-color: var(--color-white);
+  box-shadow: 0 0 52.6px rgba(0, 0, 0, 0.03);
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-78xl);
+  align-items: center;
+  gap: var(--gap-27xl);
+  text-align: center;
+  font-size: var(--font-size-7xl-3);
+  color: var(--color-blueviolet);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1200px) {
+  .zermattCard {
+    width: 100%;
+  }
+  .smallCards,
+  .zermattCard {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cardsContainer {
+    flex-direction: column;
+  }
+  .recentStoriesFrame {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

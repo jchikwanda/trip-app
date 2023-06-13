@@ -1,0 +1,34 @@
+.navigationBar {
+  position: relative;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  height: 5.63rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-100xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .navigationBar {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navigationBar {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .navigationBar {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}

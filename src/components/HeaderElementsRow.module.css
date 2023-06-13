@@ -1,0 +1,188 @@
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 40.07%;
+  width: 62.6%;
+  top: 8.45%;
+  right: 36.59%;
+  bottom: 51.48%;
+  left: 0.82%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 36.12%;
+  width: 95.93%;
+  top: 55.1%;
+  right: 0.62%;
+  bottom: 8.77%;
+  left: 3.46%;
+}
+.headerLogo,
+.home {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.headerLogo {
+  position: relative;
+  width: 6.25rem;
+  height: 4rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+  color: var(--color-orange);
+  text-align: center;
+  display: inline-block;
+}
+.contactUs,
+.gallery,
+.story {
+  position: absolute;
+  top: 0;
+  left: 27.58%;
+}
+.contactUs,
+.gallery {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 52.92%;
+  font-size: var(--font-size-base);
+  font-family: var(--font-roboto);
+  color: var(--color-dimgray);
+  text-align: center;
+  display: inline-block;
+}
+.contactUs {
+  width: 24.15%;
+  left: 75.85%;
+}
+.headerLinks {
+  position: relative;
+  width: 22.44rem;
+  height: 1.19rem;
+}
+.hamburgerBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+}
+.hamburgerIcon {
+  position: absolute;
+  top: 1.06rem;
+  left: 0.82rem;
+  width: 1.24rem;
+  height: 0.75rem;
+}
+.headerHamburgerMenu {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 2.88rem;
+  height: 2.88rem;
+  display: none;
+}
+.seperator {
+  position: relative;
+  border-right: 1px solid var(--color-whitesmoke-300);
+  box-sizing: border-box;
+  width: 0.06rem;
+  height: 1.54rem;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 108.53%;
+  width: 108.54%;
+  top: -5%;
+  right: -3.54%;
+  bottom: -3.53%;
+  left: -5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.headerSearchIcon {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 35.71%;
+  width: 35.71%;
+  top: 21.43%;
+  right: 32.14%;
+  bottom: 42.86%;
+  left: 32.14%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon4 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.headerProfile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.headerElementsRow,
+.headerMenuOptionsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.headerMenuOptionsRow {
+  justify-content: flex-end;
+  gap: var(--gap-lg);
+}
+.headerElementsRow {
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 960px) {
+  .headerLinks {
+    display: none;
+  }
+  .headerHamburgerMenu {
+    display: flex;
+  }
+  .seperator {
+    display: none;
+  }
+}

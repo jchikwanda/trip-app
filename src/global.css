@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-changa-one: "Changa One";
+  --font-changa: Changa;
+  --font-baloo-bhai: "Baloo Bhai";
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-sm: 0.88rem;
+  --font-size-lgi-4: 1.21rem;
+  --font-size-10xl-1: 1.82rem;
+  --font-size-29xl-4: 3.03rem;
+  --font-size-7xl-3: 1.64rem;
+  --font-size-lg: 1.13rem;
+  --font-size-13xl: 2rem;
+  --font-size-base: 1rem;
+  --font-size-xl: 1.25rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-77xl: 6rem;
+  --font-size-51xl: 4.38rem;
+  --font-size-37xl: 3.5rem;
+  --font-size-mini: 0.94rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-lightslategray: #939eb4;
+  --color-whitesmoke-100: #f9f9f9;
+  --color-whitesmoke-300: #eee;
+  --color-whitesmoke-200: #eaeaea;
+  --color-blueviolet: #8a53ff;
+  --color-slategray: #576074;
+  --color-darkslategray-100: #434343;
+  --color-darkslategray-200: #424242;
+  --color-darkslategray-300: #303030;
+  --color-black: #000;
+  --color-orange: #ff9900;
+  --color-darkgray: #999;
+  --color-dimgray: #495367;
+
+  /* Gaps */
+  --gap-3xs: 0.63rem;
+  --gap-27xl: 2.88rem;
+  --gap-2xl: 1.31rem;
+  --gap-mini: 0.94rem;
+  --gap-5xl: 1.5rem;
+  --gap-7xs: 0.38rem;
+  --gap-10xs: 0.19rem;
+  --gap-22xl: 2.56rem;
+  --gap-118xl: 8.56rem;
+  --gap-11xl: 1.88rem;
+  --gap-lg: 1.13rem;
+  --gap-6xs: 0.44rem;
+
+  /* Paddings */
+  --padding-31xl: 3.13rem;
+  --padding-78xl: 6.06rem;
+  --padding-21xl: 2.5rem;
+  --padding-base: 1rem;
+  --padding-3xl: 1.38rem;
+  --padding-2xl: 1.31rem;
+  --padding-xl: 1.25rem;
+  --padding-176xl: 12.19rem;
+  --padding-mid: 1.06rem;
+  --padding-35xl: 3.38rem;
+  --padding-3xs: 0.63rem;
+  --padding-181xl: 12.5rem;
+  --padding-11xs: 0.13rem;
+  --padding-100xl: 7.44rem;
+  --padding-61xl: 5rem;
+  --padding-5xl: 1.5rem;
+
+  /* border radiuses */
+  --br-2xs-5: 10.5px;
+  --br-7xs-3: 5.3px;
+  --br-12xl: 31px;
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-9xs: 4px;
+}

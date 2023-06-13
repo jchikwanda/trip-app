@@ -1,0 +1,60 @@
+.tuscanyCardImage,
+.tuscanyItaly {
+  align-self: stretch;
+  position: relative;
+}
+.tuscanyCardImage {
+  border-radius: 5.26px;
+  max-height: 100%;
+  width: 14.06rem;
+  object-fit: cover;
+}
+.tuscanyItaly {
+  line-height: 2.73rem;
+}
+.viewFullBlog {
+  color: var(--color-blueviolet);
+}
+.theAmazingTuscanyContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.21rem;
+  line-height: 1.97rem;
+  font-family: var(--font-roboto);
+  color: var(--color-slategray);
+}
+.tuscanyCard,
+.tuscanyCardDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tuscanyCardDetails {
+  flex: 1;
+  flex-direction: column;
+}
+.tuscanyCard {
+  align-self: stretch;
+  border-radius: 10.52px;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-3xl);
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: 1.82rem;
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-changa-one);
+}
+@media screen and (max-width: 960px) {
+  .tuscanyCardImage {
+    width: 100%;
+  }
+  .tuscanyCardDetails {
+    flex: unset;
+    align-self: stretch;
+  }
+  .tuscanyCard {
+    flex-direction: column;
+  }
+}

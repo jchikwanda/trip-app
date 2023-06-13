@@ -1,0 +1,109 @@
+.recommendedHolidays {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.viewAllHolidays {
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-orange);
+  text-align: right;
+  display: inline-block;
+  width: 10.37rem;
+  flex-shrink: 0;
+}
+.arrowRightIcon {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.recCardsContainer,
+.recTitle,
+.viewAllHolidaysParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.viewAllHolidaysParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  border-radius: var(--br-12xl);
+  width: 12.49rem;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.recCardsContainer,
+.recTitle {
+  align-self: stretch;
+  align-items: center;
+}
+.recCardsContainer {
+  align-items: flex-start;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.viewAllHolidays1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 10.37rem;
+  flex-shrink: 0;
+}
+.recommendedHolidaysContainer,
+.viewAllBottom {
+  background-color: var(--color-white);
+  align-items: flex-start;
+}
+.viewAllBottom {
+  border-radius: var(--br-12xl);
+  width: 12.49rem;
+  display: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-orange);
+}
+.recommendedHolidaysContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xl);
+  justify-content: center;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 960px) {
+  .viewAllHolidaysParent {
+    display: none;
+  }
+  .recCardsContainer {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    flex-wrap: wrap;
+  }
+  .viewAllHolidays1 {
+    width: auto;
+  }
+  .viewAllBottom {
+    display: flex;
+    mrgin-top: 16px;
+  }
+}
