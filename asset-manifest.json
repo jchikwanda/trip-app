@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/trip-app/static/css/main.9cb40237.css",
+    "main.js": "/trip-app/static/js/main.f28bcbab.js",
+    "static/media/hero@3x.png": "/trip-app/static/media/hero@3x.55ec8a9a190417636fd5.png",
+    "index.html": "/trip-app/index.html",
+    "main.9cb40237.css.map": "/trip-app/static/css/main.9cb40237.css.map",
+    "main.f28bcbab.js.map": "/trip-app/static/js/main.f28bcbab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb40237.css",
+    "static/js/main.f28bcbab.js"
+  ]
+}
